@@ -1,0 +1,15 @@
+void setup() {
+  size(300,300);
+  background(#820CE5);
+  noFill();
+  
+}
+
+void draw() {
+  strokeWeight(random(3, 10)); // thickness of each of the 'bows'
+  stroke(random(255), random(200), random(125)); // color of each bow
+  float rainbow_size = random(225, 350); // Defines rainbow_size the random would make rainbow_size equal between 225 and 350
+  ellipse(150, 350, rainbow_size, rainbow_size); // the size of each elipse is between those sizes rainbow_size defined in previous line
+}
+
+
